@@ -21,8 +21,8 @@ public class menu {
         while (!salir) {
  
             System.out.println("menu");
-            System.out.println("1. Opcion 2");
-            System.out.println("2. Opcion 3");
+            System.out.println("1. Usuarios");
+            System.out.println("2. Palabras Palíndromes");
             System.out.println("3. Salir");
  
             try {
@@ -41,13 +41,12 @@ public class menu {
                     case 3:
                         salir = true;
                         break;
-                    case 4:
-                        System.exit(0)
-                                ;
+                    
+                                
            
                         break;
                     default:
-                        System.out.println("Solo números entre 1 y 4");
+                        System.out.println("Solo números entre 1 y 3");
                 }
             } catch (InputMismatchException e) {
                 System.out.println("Debes insertar un número");
