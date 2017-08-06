@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author byron
+ * @author alejandro armira
  */
 public class menu2 {
     public void metodo2(){
