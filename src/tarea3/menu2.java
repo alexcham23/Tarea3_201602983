@@ -38,14 +38,15 @@ public class menu2 {
                     case 2:
                         System.out.println("Has seleccionado la opcion 2");
                         break;
-                    case 3:
-                        System.out.println("Has seleccionado la opcion 2");
-                        break;
+                    case 3: 
+                        return;
                     case 4:
                         salir = true;
                         break;
                     default:
                         System.out.println("Solo números entre 1 y 4");
+                       
+                       
                 }
             } catch (InputMismatchException e) {
                 System.out.println("Debes insertar un número");

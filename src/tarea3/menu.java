@@ -36,15 +36,14 @@ public class menu {
                         llamada.metodo2();
                         break;
                     case 2:
-                        System.out.println("Has seleccionado la opcion 2");
+                      palindrome call =new palindrome();
+                      call.palindrome();
                         break;
                     case 3:
                         salir = true;
                         break;
-                    
-                                
-           
-                        break;
+                                               
+                                 
                     default:
                         System.out.println("Solo números entre 1 y 3");
                 }
