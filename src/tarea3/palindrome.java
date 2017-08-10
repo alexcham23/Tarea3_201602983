@@ -1,17 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package tarea3;
 
 /**
  *
- * @author jaime armira                     
+ * @author Alejandro Armira                     
  */
 import java.util.Scanner;
 public class palindrome {
     public void palindrome () {
+        //ESTE PROGRAMA NOS PERMITIRA SABER SI LA PALABRA SE PUEDE LEER DE IZQUIERDA A DERECHA Y VICEVERSA
     Scanner teclado = new Scanner(System.in); 
         String nombre, nombre1 = "",nombre2 = ""; 
         System.out.println("Ingrese un nombre"); 
@@ -29,9 +26,9 @@ public class palindrome {
         }
                 
         if (nombre1.equals(nombre2)) { 
-            System.out.println("La palabra es palindroma");  
+            System.out.println("¡SI ES PALINDROMA!!!");  
         }else{
-            System.out.println("No es palindroma");
+            System.out.println("¡NO ES PALINDROMA!!!");
         }
  
 	}
