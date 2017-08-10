@@ -7,7 +7,7 @@ package tarea3;
 
 /**
  *
- * @author byron
+ * @author alejandro armira
  */
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -20,7 +20,7 @@ public class menu {
  
         while (!salir) {
  
-            System.out.println("menu");
+            System.out.println("MENÚ");
             System.out.println("1. Usuarios");
             System.out.println("2. Palabras Palíndromes");
             System.out.println("3. Salir");
@@ -31,25 +31,25 @@ public class menu {
                 opcion = sn.nextInt();
  
                 switch (opcion) {
-                    case 1:
+                    case 1://llamando  al menu2
                         menu2 llamada=new menu2();
                         llamada.metodo2();
                         break;
-                    case 2:
+                    case 2://llamado a la clase palindrome 
                       palindrome call =new palindrome();
                       call.palindrome();
                         break;
-                    case 3:
+                    case 3://salida definitiva del programa
                         salir = true;
                         break;
                                                
                                  
-                    default:
+                    default://permite avisarle al usuario que que solo puede utilizar cierto rango para elegir  
                         System.out.println("Solo números entre 1 y 3");
                 }
             } catch (InputMismatchException e) {
                 System.out.println("Debes insertar un número");
-                sn.next();
+                sn.next();//nos permitira avisarle al usuario que no esta usando numeros si no letras
             }
             }
         }
