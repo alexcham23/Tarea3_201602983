@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package tarea3;
 
 /**
@@ -19,7 +15,7 @@ public class menu {
         int opcion; //Guardaremos la opcion del usuario
  
         while (!salir) {
- 
+             
             System.out.println("MENÚ");
             System.out.println("1. Usuarios");
             System.out.println("2. Palabras Palíndromes");
