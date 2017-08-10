@@ -25,7 +25,7 @@ public class menu2 {
  
             System.out.println("Menú de Usuarios");
             System.out.println("1. Ingresar Usuarios");
-            System.out.println("2. Mostrar Tdos Los Usuarios");
+            System.out.println("2. Mostrar Todos Los Usuarios");
             System.out.println("3. Mostrar Un Usuario Personalizado");
             System.out.println("4. Menú Principal");
             System.out.println("5. Salir");
